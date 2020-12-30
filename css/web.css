@@ -1,0 +1,58 @@
+/* container1,3 레이아웃 같고 container2,4같음 */
+
+section div{
+  /* border:1px solid black; */
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+section .container0, .container1, .container2, .container3, .container4{
+  width:1700px;
+  margin: 50px auto;
+}
+
+section h3, h4{
+  border-bottom: 1px solid black;
+}
+
+section .container1 .item, .container3 .item{
+  display: flex;
+}
+
+section .container1 .image, .container3 .image{
+  width:800px;
+  height:800px;
+  margin:50px auto;
+}
+
+section .container1 .content, .container3 .content{
+  width:500px;
+  height:700px;
+  margin: 50px auto;
+}
+
+section .container1 .description, .container3 .description{
+  margin-bottom: 100px;
+}
+
+section .container2 .image, .container4 .image{
+  width:1000px;
+  height:500px;
+  margin: auto;
+}
+
+
+section .container2 .description, .container2 .review{
+  width:700px;
+  height:200px;
+  margin: 0 auto;
+}
+
+section .container4 .description, .container4 .review{
+  width:700px;
+  height:200px;
+  margin: 0 auto;
+}
