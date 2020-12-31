@@ -9,8 +9,8 @@ img{
 
 section .container1, .container2, .container3, .container4{
   /* border: 1px solid black; */
-  width:1700px;
-  margin: 20px auto;
+  width:1400px;
+  margin: 50px auto;
 }
 
 section .container1 h4, .container3 h4{
@@ -30,11 +30,11 @@ section .container2 .item{
 
 section .container4{
   display: flex;
+  justify-content: center;
 }
 
 section .container4 .item{
   width:500px;
-  margin: 0 auto;
 }
 
 section .container4 .colorSet{

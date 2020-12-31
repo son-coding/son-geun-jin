@@ -1,3 +1,22 @@
-div{
-  border: 1px solid black;
+section .greet, .mail{
+  width:200px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+section h1{
+  font-family: 'Lobster', sans-serif;
+}
+
+section .greet:hover{
+  box-shadow: 0px 100px 10px black;
+  transition: 0.5s;
+}
+
+section .mail{
+  color:white;
+
 }

@@ -9,8 +9,14 @@ img{
   height: 100%;
 }
 
+a{
+  color:red;
+  text-decoration: none;
+}
+
 section .container0, .container1, .container2, .container3, .container4{
-  width:1700px;
+  width:1400px;
+  /* height: 700px; */
   margin: 50px auto;
 }
 
