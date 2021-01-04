@@ -9,7 +9,7 @@ header{
   border-bottom: 1px solid gray;
   position: sticky;
   top:0;
-  width:1920px;
+  min-width:500px;
   height: 40px;
   padding-top: 20px;
 
